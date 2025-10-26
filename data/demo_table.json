@@ -1,0 +1,19 @@
+{
+  "table_name": "sensor_data",
+  "columns": [
+    {
+      "name": "device_id",
+      "type": "STRING"
+    },
+    {
+      "name": "temperature",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "ts",
+      "type": "TIMESTAMP"
+    }
+  ],
+  "partition_by": "DAY",
+  "wal_enabled": true
+}

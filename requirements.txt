@@ -1,0 +1,8 @@
+transformers
+sentence-transformers
+torch
+qdrant-client
+beautifulsoup4
+requests
+streamlit
+accelerate
